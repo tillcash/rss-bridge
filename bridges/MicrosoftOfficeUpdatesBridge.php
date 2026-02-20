@@ -11,7 +11,7 @@ class MicrosoftOfficeUpdatesBridge extends BridgeAbstract
     public const MAINTAINER = 'tillcash';
 
     public const PARAMETERS = [
-        '' => [
+        [
             'channel' => [
                 'name' => 'Update Channel',
                 'type' => 'list',
